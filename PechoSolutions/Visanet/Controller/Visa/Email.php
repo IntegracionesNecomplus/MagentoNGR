@@ -15,6 +15,7 @@ use PechoSolutions\Visanet\Model\Library\Visanet;
 class Email extends \Magento\Framework\App\Action\Action {
 
     protected $config;
+    protected $scopeConfig;
     private $encryptor;
     protected $checkoutSession;
     protected $resultJsonFactory;
