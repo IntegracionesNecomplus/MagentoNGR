@@ -30,7 +30,7 @@ class Payment extends AbstractMethod
     protected $visanetManager;
     protected $cartRepository;
     private $encryptor;
-    protected $registry;
+    private $registry;
     protected $_supportedCurrencyCodes = array('USD', 'PEN');
     protected $_debugReplacePrivateDataKeys = ['number', 'exp_month', 'exp_year', 'cvc', 'source_id'];
 
